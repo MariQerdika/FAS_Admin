@@ -35,7 +35,7 @@ body {
 .logo::after {
     content: "admin";
     font-size: 10px;
-    color: #333;
+    color: #fff;
     letter-spacing: 0;
 }
 .close:focus {

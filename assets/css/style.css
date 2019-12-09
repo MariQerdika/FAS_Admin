@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2a2d35;
+    background-color: transparent;
     padding: 0 15px;
 }
 body {

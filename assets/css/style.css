@@ -1,0 +1,158 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+.title, .Log_in, .login label, .login_p .btn {
+    font-family: 'MarkGEOCAPS-Bold';
+}
+.log_b {
+    font-family: 'BPGGlaho';
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 15px;
+}
+body {
+    background: #2a2d35 url(../images/background.png) no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.logo a {
+    font-size: 24px;
+    color: #e30613;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+.logo::after {
+    content: "admin";
+    font-size: 10px;
+    color: #333;
+    letter-spacing: 0;
+}
+.close:focus {
+    outline: none;
+}
+.main {
+    padding-top: 10%;  
+}
+.Log_in {
+    color:#2a2d35;
+    cursor: pointer;
+    font-size: 14px;
+}
+.log_b {
+    color: #2768AA;
+    font-size: 12px;
+}
+.login {
+    text-align: left;
+}
+.block .inner {
+    border: 1px solid #525356;
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0 30px 10px;
+}
+.inner {
+    display: flex;
+    align-items: flex-end;
+}
+.main a  {
+    text-decoration: none;
+}
+.title {
+    color: #fff;
+    font-size: 14px;
+}
+.block:hover .inner {
+    border: 1px solid red;
+}
+
+.title::after {
+    content: "\f105";
+    font-family: FontAwesome !important;
+    position: absolute;
+    right: 30px;
+}
+.block .news {
+    background: url(../images/news_icon.png) no-repeat center;
+}
+.block .menu {
+    background: url(../images/menu_icon.png) no-repeat center;
+}
+.block .user {
+    background: url(../images/users_icon.png) no-repeat center;
+}
+.block .photo {
+    background: url(../images/photo_icon.png) no-repeat center;
+}
+.block .parameters {
+    background: url(../images/parameters_icon.png) no-repeat center;
+}
+.block .video {
+    background: url(../images/video_icon.png) no-repeat center;
+}
+.block::after {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 32px;
+    background: red;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+.login label {
+    color: #2a2d35;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.login_p .btn-primary {
+    padding: 7px 70px;
+    background-color: #696a6d;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+}
+.modal-header {
+    border: none;
+    padding-bottom: 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2a2d35;
+    border-color: #2a2d35;
+}
+.form-control:focus {
+    border-color: #aaabaf;
+    box-shadow: none;
+}
+
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 840px;
+    }
+}
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 400px;
+    margin: 13% auto;
+    }
+}
+@media (max-width: 575.98px) {
+    .main {
+        padding-top: 20%;
+    }
+}
